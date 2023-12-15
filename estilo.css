@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    background-color: #1e2326;
+}
+
+body {
+    text-align: center;
+    color: #fff;
+    background-color: #252a2e;
+}
+
+.left {
+    background-color: #252a2e;
+    max-width: 500px;
+    border: 1px solid #252a2e;
+    padding: 20px;
+    float: left;
+}
+
+select {
+    color: #fff;
+    display: inline-block;
+    margin-bottom: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+input {
+    display: inline-block;
+    border: none;
+    border-bottom: 1px solid #88d498;
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 5px;
+    outline: none;
+}
+
+#titulo {
+    color: #fff;
+    font-weight: bold;
+    background-color: #252a2e;
+}
+
+.dato .serie {
+    color: #fff;
+    background-color: #252a2e;
+    width: 70%;
+    margin-right: 15px;
+}
+
+.dato .valor {
+    color: #fff;
+    width: 20%;
+    background-color: #252a2e;
+}
+
+.agregar {
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: #18936f;
+    border: none;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 20px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.crear-grafico {
+    float: right;
+    background-color: #18936f;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.right {
+    float: left;
+    border: 1px solid #000;
+    max-width: 605px;
+    margin-left: 15px;
+}
+div{
+    background-color: #252a2e;
+}
